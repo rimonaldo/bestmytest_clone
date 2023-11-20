@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import Header from './cmps/Header'
-
+import Sidebar from './cmps/Sidebar'
 function App() {
-  const [count, setCount] = useState(0)
+  const [isCollapsed, setCollapsed] = useState(false)
 
   return (
     <>
-      <Header></Header>
+      <Header setIsCollapsed={(ev)=>setCollapsed(ev)} isCollapsed={isCollapsed}></Header>
+      <Sidebar isCollapsed={isCollapsed}></Sidebar>
     </>
   )
 }

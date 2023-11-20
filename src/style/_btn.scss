@@ -1,0 +1,45 @@
+.btn {
+    min-height: 25px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .btn-icon {
+        margin-right: 5px;
+    }
+
+    color: white;
+    border: none;
+    border-radius: 20px;
+
+    // border: 1px black solid;
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.setting {
+        color: rgba(255, 255, 255, 0.479);
+
+        &:hover {
+            color: white;
+        }
+    }
+
+}
+
+.btn-wide {
+    width: 120px;
+
+}
+
+.btn-regular {}
+
+.btn-red {
+    background-color: #eb2124;
+
+}
+
+.clear {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
