@@ -1,16 +1,19 @@
+
 .header-wrapper {
-    position: relative;
+    position: fixed;
+    width: 100%;
     left: 265px;
     display: flex;
     height: 40px;
     background-color: #1f6689;
     // font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 5;
 
     &.collapsed {
         left: 0 !important;
     }
 
-    transition: .2s;
+    transition: .2s ease-in-out;
 
     // all the children of the header-wrapper
     >* {
@@ -62,51 +65,7 @@
     }
 
 
-    .btn {
-        min-height: 25px;
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-
-        .btn-icon {
-            margin-right: 5px;
-        }
-
-        color: white;
-        border: none;
-        border-radius: 20px;
-
-        // border: 1px black solid;
-        &:hover {
-            cursor: pointer;
-        }
-
-        &.setting {
-            color: rgba(255, 255, 255, 0.479);
-
-            &:hover {
-                color: white;
-            }
-        }
-
-    }
-
-    .btn-wide {
-        width: 120px;
-
-    }
-
-    .btn-regular {}
-
-    .btn-red {
-        background-color: #eb2124;
-
-    }
-
-    .clear {
-        background-color: rgba(255, 255, 255, 0) !important;
-    }
+    
 
     // #1f6689 - blue
     // #eb2124 - red

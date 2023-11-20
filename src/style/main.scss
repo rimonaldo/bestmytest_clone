@@ -8,11 +8,12 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    height: 200vh;
 }
 
 h1,
@@ -68,3 +69,5 @@ td {
 }
 
 @import 'header';
+@import 'sidebar';
+@import 'btn';
