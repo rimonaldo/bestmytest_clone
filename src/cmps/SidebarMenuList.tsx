@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import SidebarMenuItem from './SidebarMenuItem'
 type Props = {}
 
 const SidebarMenuList = (props: Props) => {

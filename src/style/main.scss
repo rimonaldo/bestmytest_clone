@@ -1,73 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto Flex', sans-serif;
-}
-
-body {
-    overflow-x: hidden;
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    height: 200vh;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: 1em;
-}
-
-a {
-    text-decoration: none;
-    color: #007bff;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-ul,
-ol {
-    list-style: none;
-}
-
-img,
-video {
-    max-width: 100%;
-    height: auto;
-}
-
-input,
-button,
-select,
-textarea {
-    font-family: inherit;
-    font-size: inherit;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th,
-td {
-    text-align: left;
-    padding: 8px;
-}
-
-:focus {
-    outline: 2px solid blue;
-}
+@import 'normalize';
 
 @import 'header';
 @import 'sidebar';
+@import 'dashboard-page';
 @import 'btn';
+@import 'btn';
+
+.width-wrapper {
+    position: relative;
+    left: 265px !important;
+    transition: .2s ease-in-out;
+    width: calc(100% - 265px) !important;
+
+    &.collapsed {
+        width: 100% !important;
+        left: 0 !important;
+    }
+}
