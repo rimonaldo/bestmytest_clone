@@ -51,6 +51,11 @@ textarea {
     font-size: inherit;
 }
 
+button {
+    all: unset;
+    cursor: pointer;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
