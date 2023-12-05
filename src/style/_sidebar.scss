@@ -103,8 +103,15 @@
             align-items: center;
             padding-left: 20px;
 
+            &.active{
+                background-color: #3d454c;
+                border-top: #4c545c solid 1px;
+                border-bottom: #4c545c solid 1px;
+            }
+            transition: .2s;
             &:hover {
                 cursor: pointer;
+                background-color: #3d454c;
             }
 
             .svg-icons {

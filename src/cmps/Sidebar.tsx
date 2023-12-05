@@ -6,16 +6,23 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import SmsIcon from '@mui/icons-material/Sms';
 import SidebarMenuList from './SidebarMenuList';
+import { useNavigate } from 'react-router-dom';
+
+
 
 type Props = {
     isCollapsed: boolean
 }
 
 function Sidebar({ isCollapsed }: Props) {
+
+    const navigate = useNavigate();
+
+
     return (
         <div className={`sidebar-wrapper ${isCollapsed ? 'collapsed' : ''}`}>
             <header >
-                <img src="src\assets\bmt_logo.png" alt="avatar" />
+                <img src="src\style\assets\bmt_logo.png" alt="avatar" />
                 <NotificationsIcon style={{ color: 'white' }} />
                 <div className="account-circle">
                     <AccountCircle style={{ color: 'white' }} />
@@ -29,7 +36,7 @@ function Sidebar({ isCollapsed }: Props) {
                     Ask me a question! :)
                 </div>
                 <div className="avatar">
-                    <img src="src\assets\instructor_avatar.png" alt="avatar" />
+                    <img src="src\style\assets\instructor_avatar.png" alt="avatar" />
                 </div>
                 <div className="btn btn-red">
                     <svg className="svg-icons" viewBox="0 0 28 28">
@@ -39,7 +46,7 @@ function Sidebar({ isCollapsed }: Props) {
                 </div>
             </div>
 
-            <SidebarMenuList/>
+            <SidebarMenuList />
 
         </div>
     )

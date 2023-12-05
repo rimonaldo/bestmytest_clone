@@ -1,0 +1,198 @@
+.target-scores {
+    // border: 1px yellowgreen solid;
+    padding: 0 2rem;
+
+
+    @media screen and (max-width: 1080px) {
+        // padding: 0;
+
+        td {
+            .score {
+                // right: 0;
+            }
+        }
+
+    }
+
+    table {
+        color: rgb(147, 149, 150);
+
+
+
+        .overall {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            line-height: 3rem;
+            border-bottom: 1px #dbdce0 solid;
+
+            .score {
+                font-size: 24px;
+                font-weight: 600;
+                // right: 40%;
+            }
+        }
+
+
+
+        thead {
+            color: rgb(63, 63, 63);
+            font-size: 14px;
+            letter-spacing: .5px;
+            line-height: 2.5em;
+            border-bottom: 1px #dbdce0 solid;
+
+            th {
+                padding-top: 0;
+            }
+        }
+
+        tbody {
+            line-height: 1.5em;
+
+            >* {
+                // border: 1px red solid;
+
+                >* {
+                    // border: 1px red solid;
+                }
+            }
+
+            .last {
+                border-bottom: 1px #dbdce0 solid;
+            }
+
+            col {
+                border: 5px red solid;
+            }
+
+            tr {
+
+                font-size: 14px;
+                line-height: .7em;
+
+
+                &.edit-btn {
+                    line-height: 6rem;
+                    font-size: 18px;
+
+                    @media screen and (max-width: 990px) {
+                        line-height: 3rem;
+                    }
+                    button {
+                        width: 200px;
+                        color: rgb(78, 139, 167);
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+
+                        &:focus {
+                            outline: none;
+                        }
+
+                        &:hover {
+                            color: rgb(61, 108, 129);
+                        }
+
+                    }
+                }
+
+                &.line {
+                    all: unset;
+                    // background-color: green;
+                    height: 2px;
+                    position: relative;
+                    // border-bottom: 1px #dbdce0 solid;
+                    width: 200px;
+                    display: flex;
+                    width: 160.6%;
+
+                }
+
+                td {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+
+
+                    .score {
+                        font-size: 14px;
+                        font-weight: 300;
+                        position: relative;
+                        right: 0;
+
+                        .editable {
+                            // outline: 1px rgb(187, 187, 187) solid;
+                            // color: red;
+                            cursor: text;
+                            position: relative;
+
+
+                            input {
+                                outline: 1px rgb(212, 212, 212) solid !important;
+                                cursor: text !important;
+
+
+                            }
+
+
+                        }
+
+
+
+                        .span {
+                            padding: .5em .65em;
+
+                            input[type=number]::-webkit-inner-spin-button {
+                                -webkit-appearance: none;
+
+                                &::-webkit-outer-spin-button {
+                                    -webkit-appearance: none;
+                                }
+
+
+                            }
+
+                            // margin-right: .3em;
+                            input {
+                                all: unset;
+                                position: absolute;
+                                border: none;
+                                width: 100%;
+                                height: 100%;
+                                left: 25%;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                                text-align: center;
+                                font-size: 1.1em;
+
+                                cursor: default;
+
+                                &:hover {
+                                    cursor: default;
+                                }
+
+                            }
+                        }
+
+                        @media screen and (min-width: 500px) {
+                            // right: 25%;
+                        }
+                    }
+
+                    right: 50%;
+
+                    @media screen and (min-width: 1080px) {
+                        .score {
+                            font-size: 18px;
+                            font-weight: 300;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

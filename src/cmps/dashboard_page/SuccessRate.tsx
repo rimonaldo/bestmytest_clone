@@ -3,26 +3,26 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 type Props = {}
 
-const ScoreForcast = (props: Props) => {
+const SuccessRate = (props: Props) => {
     return (
-        <section className="score-forcast feature">
+        <section className="section-success-rate feature">
             <header>
-                <h2>Score Forecast</h2>
+                <h2>Success Rate</h2>
             </header>
-            <div className="content-wrapper">
+            <div className="content-wrapper" >
                 <div className="img-wrapper">
                     <div className="dashed-border"></div>
                     <div className="locked-wrapper">
                         <div className="lock">
                             <LockOutlinedIcon style={{ fontSize: '42px' }} />
                         </div>
-                        <span >We are collecting data on your performance.</span>
+                        <span >Complete reading & listening questions to unlock this table.</span>
                     </div>
-                    <img src="https://www.bestmytest.com/sites/all/modules/custom/toefl_study_plan/imgs/forecast/overall-forecast.png" alt="" />
+                    <img src="https://www.bestmytest.com/sites/all/modules/custom/toefl_study_plan/imgs/success-rates.jpg" alt="" />
                 </div>
             </div>
         </section>
     )
 }
 
-export default ScoreForcast
+export default SuccessRate

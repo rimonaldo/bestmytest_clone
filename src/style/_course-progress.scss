@@ -1,0 +1,35 @@
+.course-progress-container {
+    .content-wrapper {
+        display: flex;
+        width: 98%;
+        margin: auto;
+
+        @media screen and (max-width: 990px) {
+            flex-direction: column;
+
+            >* {
+                flex: 1;
+            }
+
+
+
+            :nth-child(2) {
+                margin-top: $section-margin;
+            }
+
+        }
+
+        :nth-child(1) {
+            flex: 1.5;
+
+            img {
+                min-height: 25vh !important;
+            }
+
+        }
+
+        :nth-child(2) {
+            flex: 1;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.date-selector {
+    position: absolute;
+    // center pos absolute:
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 17rem;
+
+    border: 1px solid #ccc;
+    z-index: 100;
+    background-color: white;
+
+
+    &.hidden {
+        display: none;
+    }
+
+    .date-selected {
+        flex: 1;
+        padding: 0;
+    }
+
+    >* {
+        padding: 1rem;
+    }
+}

@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
 
-@import 'normalize';
+// Base
+@import './base/normalize';
+@import './base/vars';
 
 @import 'header';
 @import 'sidebar';
 @import 'dashboard-page';
+@import 'target-score';
 @import 'btn';
-@import 'btn';
+@import 'date-picker';
+@import 'course-progress';
+@import 'score-forcast';
+@import 'locked-content-img';
+@import 'date&score';
 
 .width-wrapper {
     position: relative;
@@ -19,3 +26,4 @@
         left: 0 !important;
     }
 }
+

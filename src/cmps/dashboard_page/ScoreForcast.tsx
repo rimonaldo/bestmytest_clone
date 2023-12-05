@@ -1,12 +1,13 @@
 import React from 'react'
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+
 type Props = {}
 
-const CourseProgress = (props: Props) => {
+const ScoreForcast = (props: Props) => {
     return (
-        <section>
+        <section className="section-score-forcast feature">
             <header>
-                <h2>Course Progress</h2>
+                <h2>Score Forecast</h2>
             </header>
             <div className="content-wrapper">
                 <div className="img-wrapper">
@@ -19,8 +20,9 @@ const CourseProgress = (props: Props) => {
                     </div>
                     <img src="https://www.bestmytest.com/sites/all/modules/custom/toefl_study_plan/imgs/forecast/overall-forecast.png" alt="" />
                 </div>
-            </div></section>
+            </div>
+        </section>
     )
 }
 
-export default CourseProgress
+export default ScoreForcast
