@@ -24,7 +24,7 @@ const DashboardPage = (props: Props) => {
 
 
     return (
-        <div className='dashboard-page'  >
+        <div className='dashboard-page '  >
             <DateTarget openCalendar={() => onOpenDateSelector} />
             <DateSelector setIsDateSelectorOpen={() => onOpenDateSelector} isDateSelectorOpen={isDateSelectorOpen} />
             <ScoreForcast />

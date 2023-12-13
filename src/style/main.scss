@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 // Base
 @import './base/normalize';
 @import './base/vars';
@@ -15,6 +19,11 @@
 @import 'locked-content-img';
 @import 'date&score';
 
+@import 'test-page';
+@import 'test-list';
+@import 'test-item';
+
+
 .width-wrapper {
     position: relative;
     left: 265px !important;
@@ -26,4 +35,3 @@
         left: 0 !important;
     }
 }
-

@@ -61,3 +61,14 @@
     }
 
 }
+
+.section-success-rate {
+    .content-wrapper {
+        margin-bottom: 5rem;
+
+        @media screen and (max-width: 990px) {
+            margin-bottom: $section-margin;
+
+        }
+    }
+}

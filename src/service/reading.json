@@ -1,0 +1,128 @@
+{
+    "name": "Reading",
+    "duration": 60,
+    "article": {
+        "title": "The Mysteries of Dark Matter in the Universe",
+        "paragraphs": [
+            "In the vast expanse of space, an unseen force silently shapes the cosmos. This mysterious entity, known as dark matter, eludes direct observation, yet its gravitational pull is a fundamental force driving the universe's structure. Dark matter, making up about 27% of the universe, contrasts starkly with the mere 5% of ordinary, visible matter, leaving scientists to grapple with its enigmatic nature.",
+            "The concept of dark matter emerged from the observation that something invisible was exerting a gravitational influence on stars and galaxies. Initially posited by astronomer Fritz Zwicky in the 1930s, he noticed that galaxies in clusters moved as if under the influence of greater mass than visible. This led to the hypothesis of unseen matter, providing the scaffolding for the formation and movement of galaxies. Over decades, the idea evolved, supported by further evidence like the rotation speeds of galaxies, which defied the gravitational pull expected from visible matter alone.",
+            "Astrophysicists employ a variety of methods to infer the presence of dark matter. One primary technique involves observing the gravitational lensing effect, where light from distant galaxies is bent around massive objects, hinting at the presence of invisible mass. Additionally, the cosmic microwave background radiation, a relic of the Big Bang, offers clues about the distribution of dark matter in the early universe. Dark matter's role extends beyond mere existence; it's thought to be crucial in the formation of galaxies and the overall architecture of the cosmos, influencing the fabric of space-time itself.",
+            "Significant efforts have been made to understand dark matter. Observatories like the Hubble Space Telescope have provided invaluable data on galaxy behavior and distribution. Groundbreaking theoretical models, such as the Lambda-CDM model, incorporate dark matter to explain the universe's accelerating expansion. Despite these advancements, dark matter remains undetected in laboratory conditions, adding to its mystery.",
+            "While the existence of dark matter is a widely accepted theory, it's not without its alternatives and controversies. Some physicists propose modifying the laws of gravity as outlined by Newton and Einstein, suggesting that our understanding of gravity may not apply universally. These theories, however, often struggle to explain the breadth of astronomical observations as cohesively as the dark matter hypothesis.",
+            "Our current understanding of dark matter is at an exciting yet perplexing juncture. Recent observations, like those from the European Space Agency's Gaia mission, continue to refine our understanding of its distribution and influence. Looking ahead, missions like the James Webb Space Telescope are expected to offer deeper insights into the nature of dark matter. Scientists anticipate that these advanced technologies might finally unveil the secrets of this cosmic enigma.",
+            "The quest to understand dark matter represents one of the most compelling challenges in modern astrophysics. As we stand on the brink of potentially groundbreaking discoveries, the future of space exploration and cosmological research is poised to reveal the mysteries hidden within the dark corners of the universe."
+        ]
+    },
+    "questions": [
+        {
+            "body": "What does 'this' refer to in the sentence 'this mysterious entity, known as dark matter, eludes direct observation'?",
+            "answers": [
+                "Gravitational pull",
+                "The universe",
+                "Direct observation",
+                "Dark matter"
+            ],
+            "correctAnswer": 3,
+            "attribute": "Reference"
+        },
+        {
+            "body": "What can be inferred about dark matter from the article?",
+            "answers": [
+                "It can be directly detected in laboratory conditions.",
+                "It was first discovered by the Hubble Space Telescope.",
+                "It plays a significant role in the structure of the universe.",
+                "It is visible to the naked eye."
+            ],
+            "correctAnswer": 2,
+            "attribute": "Inference"
+        },
+        {
+            "body": "Which of the following best completes the summary? 'Dark matter, an unseen yet influential component of the universe, was first hypothesized due to ______.'",
+            "answers": [
+                "the movement of galaxies in clusters",
+                "the discovery of cosmic microwave background radiation",
+                "the development of the Lambda-CDM model",
+                "the behavior of black holes"
+            ],
+            "correctAnswer": 0,
+            "attribute": "Complete the Summary"
+        },
+        {
+            "body": "Where would the following sentence best fit in the article? 'This approach, however, has yet to yield concrete evidence of dark matter's physical properties.'",
+            "answers": [
+                "Following the description of laboratory attempts to detect dark matter.",
+                "Before the introduction of alternative theories.",
+                "Before the sentence mentioning the gravitational lensing effect.",
+                "After the sentence discussing the Lambda-CDM model."
+            ],
+            "correctAnswer": 0,
+            "attribute": "Insert a Sentence"
+        },
+        {
+            "body": "Why does the author mention the European Space Agency's Gaia mission?",
+            "answers": [
+                "To criticize the limitations of current research",
+                "To provide an example of recent advancements in understanding dark matter",
+                "To highlight an alternative theory to dark matter",
+                "To compare different space missions"
+            ],
+            "correctAnswer": 1,
+            "attribute": "Rhetorical Purpose"
+        },
+        {
+            "body": "According to the article, what is one method used to infer the presence of dark matter?",
+            "answers": [
+                "Analyzing the speed of rotating black holes",
+                "Observing the color spectrum of distant stars",
+                "Measuring the temperature of interstellar space",
+                "Studying the gravitational lensing effect"
+            ],
+            "correctAnswer": 3,
+            "attribute": "Detail"
+        },
+        {
+            "body": "Which of the following is NOT mentioned in the article as an aspect of dark matter research?",
+            "answers": [
+                "Experiments demonstrating the feasibility of certain theories",
+                "The use of the Hubble Space Telescope for observational data",
+                "Theoretical models that incorporate dark matter",
+                "The development of a device that can directly observe dark matter"
+            ],
+            "correctAnswer": 3,
+            "attribute": "Negative Factual Information"
+        },
+        {
+            "body": "What is the essential information conveyed in paragraph [3]?",
+            "answers": [
+                "The successful detection of dark matter in laboratory experiments",
+                "The significant efforts and discoveries made in understanding dark matter",
+                "The challenges in proving the existence of dark matter",
+                "Theories suggesting the modification of Newtonian physics"
+            ],
+            "correctAnswer": 1,
+            "attribute": "Essential Information"
+        },
+        {
+            "body": "In the article, the word 'scaffolding' most closely means:",
+            "answers": [
+                "An architectural design",
+                "A protective covering",
+                "A fundamental framework",
+                "A temporary structure"
+            ],
+            "correctAnswer": 2,
+            "attribute": "Vocabulary"
+        },
+        {
+            "body": "What does the term 'eludes' most likely mean in the context of the article?",
+            "answers": [
+                "Confirms",
+                "Escapes",
+                "Destroys",
+                "Attracts"
+            ],
+            "correctAnswer": 1,
+            "attribute": "Vocabulary"
+        }
+    ]
+}

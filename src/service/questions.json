@@ -1,0 +1,112 @@
+[
+    {
+        "body": "What does 'this' refer to in the sentence 'this mysterious entity, known as dark matter, eludes direct observation'?",
+        "answers": [
+            "Gravitational pull",
+            "The universe",
+            "Direct observation",
+            "Dark matter"
+        ],
+        "correctAnswer": 3,
+        "attribute": "Reference"
+    },
+    {
+        "body": "What can be inferred about dark matter from the article?",
+        "answers": [
+            "It can be directly detected in laboratory conditions.",
+            "It was first discovered by the Hubble Space Telescope.",
+            "It plays a significant role in the structure of the universe.",
+            "It is visible to the naked eye."
+        ],
+        "correctAnswer": 2,
+        "attribute": "Inference"
+    },
+    {
+        "body": "Which of the following best completes the summary? 'Dark matter, an unseen yet influential component of the universe, was first hypothesized due to ______.'",
+        "answers": [
+            "the movement of galaxies in clusters",
+            "the discovery of cosmic microwave background radiation",
+            "the development of the Lambda-CDM model",
+            "the behavior of black holes"
+        ],
+        "correctAnswer": 0,
+        "attribute": "Complete the Summary"
+    },
+    {
+        "body": "Where would the following sentence best fit in the article? 'This approach, however, has yet to yield concrete evidence of dark matter's physical properties.'",
+        "answers": [
+            "Following the description of laboratory attempts to detect dark matter.",
+            "Before the introduction of alternative theories.",
+            "Before the sentence mentioning the gravitational lensing effect.",
+            "After the sentence discussing the Lambda-CDM model."
+        ],
+        "correctAnswer": 0,
+        "attribute": "Insert a Sentence"
+    },
+    {
+        "body": "Why does the author mention the European Space Agency's Gaia mission?",
+        "answers": [
+            "To criticize the limitations of current research",
+            "To provide an example of recent advancements in understanding dark matter",
+            "To highlight an alternative theory to dark matter",
+            "To compare different space missions"
+        ],
+        "correctAnswer": 1,
+        "attribute": "Rhetorical Purpose"
+    },
+    {
+        "body": "According to the article, what is one method used to infer the presence of dark matter?",
+        "answers": [
+            "Analyzing the speed of rotating black holes",
+            "Observing the color spectrum of distant stars",
+            "Measuring the temperature of interstellar space",
+            "Studying the gravitational lensing effect"
+        ],
+        "correctAnswer": 3,
+        "attribute": "Detail"
+    },
+    {
+        "body": "Which of the following is NOT mentioned in the article as an aspect of dark matter research?",
+        "answers": [
+            "Experiments demonstrating the feasibility of certain theories",
+            "The use of the Hubble Space Telescope for observational data",
+            "Theoretical models that incorporate dark matter",
+            "The development of a device that can directly observe dark matter"
+        ],
+        "correctAnswer": 3,
+        "attribute": "Negative Factual Information"
+    },
+    {
+        "body": "What is the essential information conveyed in paragraph [3]?",
+        "answers": [
+            "The successful detection of dark matter in laboratory experiments",
+            "The significant efforts and discoveries made in understanding dark matter",
+            "The challenges in proving the existence of dark matter",
+            "Theories suggesting the modification of Newtonian physics"
+        ],
+        "correctAnswer": 1,
+        "attribute": "Essential Information"
+    },
+    {
+        "body": "In the article, the word 'scaffolding' most closely means:",
+        "answers": [
+            "An architectural design",
+            "A protective covering",
+            "A fundamental framework",
+            "A temporary structure"
+        ],
+        "correctAnswer": 2,
+        "attribute": "Vocabulary"
+    },
+    {
+        "body": "What does the term 'eludes' most likely mean in the context of the article?",
+        "answers": [
+            "Confirms",
+            "Escapes",
+            "Destroys",
+            "Attracts"
+        ],
+        "correctAnswer": 1,
+        "attribute": "Vocabulary"
+    }
+]

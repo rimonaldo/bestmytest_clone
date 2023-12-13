@@ -1,0 +1,68 @@
+.test-page-container {
+    display: flex;
+    padding: 1rem 3rem;
+    position: relative;
+    top: 40px; // should be header height
+    align-items: stretch;
+
+    >* {
+        // padding: 1rem;
+        flex: 1;
+        // border: 1px black solid;
+        margin: 3rem;
+    }
+
+    .article-container {
+        header {
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+
+            .p-number {
+                color: rgb(172, 172, 172);
+                font-size: .8em;
+            }
+        }
+    }
+
+    .questions-container {
+        .body {
+            margin-bottom: calc($section-margin );
+        }
+
+        .answer {
+            margin-bottom: calc($section-margin / 2);
+
+            input {
+                margin-right: 1rem;
+
+                &:focus {
+                    outline: none;
+                    border: 1px #dbdce0 solid;
+                }
+            }
+
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 2rem;
+            gap: 1rem;
+
+            button {
+                border: 1px #dbdce0 solid;
+                color: black;
+                width: fit-content;
+                padding: .5rem 2rem;
+
+                &:hover {
+                    background-color: #dbdce0;
+                }
+            }
+        }
+    }
+}
